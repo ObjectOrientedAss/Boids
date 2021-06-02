@@ -12,11 +12,11 @@ Each algorithm takes in account something and gives a different outcome that inf
 Each alogrithm has a weight, which allows to increase/decrease its influence on the final movement of the boid.
 Each algorithm has a radius, which allows to increase/decrease the number of neighbours taken in account in the algorithms.
 
-##Alignment
+### Alignment
 The boid takes in account its neighbours direction and orientates toward their average heading.
 
-##Cohesion
+### Cohesion
 The boid takes in account its neighbours average position and moves in that direction.
 
-##Separation
+### Separation
 The boid takes in account its neighbours individual position and moves in the opposite direction.
